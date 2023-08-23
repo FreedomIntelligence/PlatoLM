@@ -7,7 +7,7 @@ After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `
 
 <img src="https://github.com/FreedomIntelligence/ReaLM/assets/73695787/808bcc05-dcae-4fa4-a11e-2c5496ae79b3" alt="performance" width="50%" height="50%">
 
-The dataset was dubbed `RealChat` due to its human-like user side. UserGPT's versatility in switching between generating novel questions and incorporating single-round dialogs as conversational instructions to create domain-specific datasets led to the naming of the answering model as `ReaLM`.
+The dataset was dubbed `RealChat` due to its human-like user side. UserGPT's versatility in switching between raising novel questions and incorporating single-round dialogs as conversational instructions to create domain-specific datasets led to the naming of the answering model as `ReaLM`.
 
 The reference paper is available at the following links:
 https://arxiv.org/abs/2308.11534v1
