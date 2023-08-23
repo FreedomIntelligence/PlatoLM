@@ -3,9 +3,12 @@ Welcome to our Realm.
 
 We propose a new paradigm for training a user simulator. 
 
-When using this paradigm on ShareGPT and LLaMA-7B, we got a brand new user simulator `UserGPT`.  When calling the UserGPT and gpt-3.5-turbo iteratively, we generated a multi-round conversation dataset `RealChat`. When fine-tuning LLAMA-7B-2 with it, the performance of the resulting model `ReaLM` surpass LLaMA-2-7B-chat and Vicuna with only 50.7K samples in MT-Bench.
+When using this paradigm on ShareGPT and LLaMA-7B, we got a brand new user simulator `UserGPT`.  When calling the UserGPT and gpt-3.5-turbo iteratively, we generated a multi-round conversation dataset `RealChat`. When fine-tuning LLAMA-7B-2 with it, the performance of the resulting model `ReaLM` surpasses LLaMA-2-7B-chat and Vicuna with only 50.7K samples in MT-Bench.
 
 <img src="https://github.com/FreedomIntelligence/ReaLM/assets/73695787/808bcc05-dcae-4fa4-a11e-2c5496ae79b3" alt="图片描述" width="50%" height="50%">
+
+Since the user side is more human-like, the dataset was called `RealChat`.
+Since using UserGPT can switch freely between asking new questions and using other single-round dialogs as conversational instructions to generate domain-specific datasets, the answering model was called `ReaLM`.
 
 The reference paper is available at the following links:
 https://arxiv.org/abs/2308.11534v1
