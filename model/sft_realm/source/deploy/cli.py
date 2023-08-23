@@ -44,7 +44,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model-path",
         type=str,
-        default="FreedomIntelligence/ReaLM",
+        default="FreedomIntelligence/ReaLM-7b",
         help="The path to the weights",
     )
     parser.add_argument("--device", type=str, choices=["cpu", "cuda"], default="cuda")
