@@ -1,0 +1,65 @@
+[
+  {
+    "question_id": 4,
+    "category": "generic",
+    "turns": [
+      "How can I increase my productivity while working from home?"
+    ]
+  },
+  {
+    "question_id": 4,
+    "answer_id": "SN87zqbdrUCRVFEFTRtfVE",
+    "model_id": "realm",
+    "choices": [
+      {
+        "index": 0,
+        "turns": [
+          "To increase your productivity while working from home, consider the following tips:\n\n1. Create a dedicated workspace: Set up a dedicated workspace in your home that is free from distractions. Clear clutter, arrange your desk, and ensure you have all the necessary equipment and tools readily available.\n\n2. Establish a routine: Develop a consistent routine that includes waking up early, getting dressed, and starting your workday on time. This routine will help you create a work-life balance and maintain a focus on your tasks.\n\n3. Eliminate distractions: Minimize or eliminate distractions that can hinder your productivity. Turn off notifications on your devices, silence your phone, and create \"do not disturb\" hours if needed. Consider using apps or software that block certain websites or distracting programs during working hours.\n\n4. Prioritize tasks: Create a to-do list and prioritize tasks based on importance and urgency. Focus on the most important tasks first and break them down into smaller, manageable steps.\n\n5. Take regular breaks: It's important to take regular breaks throughout the day to recharge and maintain focus. Set a timer and take short breaks to stretch or walk around, ensuring you don't lose your concentration.\n\n6. Communicate your availability: Inform family members and coworkers about your working hours and availability. Let them know when you are available and when you need complete focus.\n\n7. Set goals and track progress: Set specific goals for each day, week, or month. Track your progress and celebrate your accomplishments to stay motivated and focused.\n\n8. Use productivity tools: Utilize productivity tools such as project management software, to-do lists, or time-tracking apps to streamline your workflow and help you stay organized.\n\n9. Stay motivated and organized: Find ways to stay motivated and focused, such as setting meaningful work-related goals, listening to motivational podcasts or music, or engaging in activities that recharge your energy levels. Organize your tasks and materials in a way that makes them easily accessible.\n\n10. Take breaks and reward yourself: Allow yourself short breaks during your workday, such as taking a walk, enjoying a healthy snack, or engaging in a hobby. Reward yourself for completing tasks or reaching milestones to maintain motivation.\n\nRemember, it may take time to find the right balance between productivity and distractions while working from home. Be patient, adapt, and adjust your strategies as needed to fit your preferences and circumstances."
+        ]
+      }
+    ],
+    "tstamp": 1691757555.356479
+  },
+  {
+    "question_id": 4,
+    "answer_id": "BVfGkApLGDMWLnZ7wAQrSv",
+    "model_id": "baize",
+    "choices": [
+      {
+        "index": 0,
+        "turns": [
+          "There are several ways to increase productivity while working from home. One way is to create a workspace that is conducive to productivity. This could include a quiet and comfortable work area, with distraction-free access to necessary tools and resources. Additionally, setting goals and priorities can help you stay focused and efficient. Another tip is to break up your work into manageable, measurable tasks, and to take regular breaks to recharge your energy and refresh your mind"
+        ]
+      }
+    ],
+    "tstamp": 1691755904.703896
+  },
+  {
+    "question_id": 4,
+    "answer_id": "hx4U9PVULShaoXHXjF86gT",
+    "model_id": "ultra",
+    "choices": [
+      {
+        "index": 0,
+        "turns": [
+          "Here are some tips to increase productivity while working from home:\n\n1. Set up an organized workspace: Create a designated workspace that is free from distractions. Make sure your workspace is well-lit and has plenty of room for your computer, files, and other necessary items.\n\n2. Use a timer: Use a timer to keep yourself focused and on track. Set a timer for the amount of time you want to work and take breaks throughout the day.\n\n3. Limit distractions: Turn off your phone notifications, close social media, and put your phone away during work hours. Try to limit other distractions like television or podcasts.\n\n4. Set realistic goals: Set realistic goals and deadlines for each task. This will help you stay on track and make progress throughout the day.\n\n5. Take breaks: Taking breaks throughout the day is essential for restoring your energy and maintaining focus. Walking, stretching, or meditating can be great ways to recharge.\n\n6. Eat well: Eating healthy and balanced meals can help boost your energy and focus. Try to avoid sugary snacks or foods that may cause sluggishness.\n\n7. Prioritize your tasks: Prioritize your tasks and focus on the most important tasks first. This will help you make progress and feel a sense of accomplishment throughout the day.\n\n8. Learn to say no: Learn to say no to unnecessary tasks or requests that may take time away from your productivity. This will help you prioritize and stay on track.\n\nRemember, it's okay to take breaks and set boundaries for yourself. Focus on what you can control and make the most of your workday"
+        ]
+      }
+    ],
+    "tstamp": 1691757212.8754613
+  },
+  {
+    "question_id": 4,
+    "answer_id": "57QzyjCdMSmD8ZVCJ3DGoY",
+    "model_id": "vicuna",
+    "choices": [
+      {
+        "index": 0,
+        "turns": [
+          "Here are some tips to increase productivity while working from home:\n\n1. Set clear goals and prioritize tasks: Start your day by setting clear goals and prioritizing tasks. This will help you stay focused and on track throughout the day.\n2. Create a productive workspace: Create a workspace that is free from distractions. This could be a designated office in your home or a quiet corner where you can focus.\n3. Schedule breaks: Taking regular breaks can help you stay productive and focused. Set a timer for 25 minutes and take a break from your work after that.\n4. Limit distractions: Turn off social media notifications, avoid scrolling through emails, and close any unnecessary browser tabs to avoid distractions.\n5. Set a daily schedule: Establish a daily schedule that includes time for work, breaks, and personal time. This can help you stay organized and maintain a balance between work and personal life.\n6. Manage your energy: Understand your energy levels throughout the day and schedule your most important tasks when you are at your peak productivity.\n7. Stay hydrated and fueled: Drink plenty of water and eat healthy meals to stay alert and focused.\n8. Take breaks away from home: Sometimes, getting out of the house for a short walk or a change of scenery can help you recharge and refocus.\n\nRemember that working from home can be challenging, but with a little planning and organization, you can increase your productivity and achieve your goals"
+        ]
+      }
+    ],
+    "tstamp": 1691756781.8013499
+  }
+]
