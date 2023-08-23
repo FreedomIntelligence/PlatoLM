@@ -1,4 +1,10 @@
-# ReaLM
+# Large Language Model as a User Simulator
+
+# ✨ Latest News
+- [08/21/2023]: Release the [model weights](https://huggingface.co/FreedomIntelligence/Realm-7b/tree/main).
+- [08/21/2023]: Release the [tech report](https://arxiv.org/abs/2308.11534v1).
+
+# ⚡ Introduction
 Welcome to our realm:hugs:
 
 We propose a new paradigm for training a user simulator. 
@@ -9,7 +15,7 @@ After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `
 
 The dataset was dubbed `RealChat` due to its human-like user side. UserGPT's versatility in switching between raising novel questions and incorporating single-round dialogs as conversational instructions to create domain-specific datasets led to the naming of the answering model as `ReaLM`.
 
-## Methodology
+# 📚 Methodology
 The key to our idea is to `flip the chessboard`.
 
 (:chess_pawn:from an AVG —— うみねこのなく頃に).
@@ -23,14 +29,29 @@ In addition, we use a dyadic prompt template to instruct our backbone.
 The main difference between us and other research is shown below.
 ![haha](https://github.com/FreedomIntelligence/ReaLM/assets/73695787/31baa406-e8c0-4fe4-854c-41f798ed8d52)
 
-## Links
-The reference paper is available at the following link:
+# 🚀 Training
+(Coming soon.)
+# 🧐 Inferencing
+(Coming soon.)
 
-https://arxiv.org/abs/2308.11534v1
+# 😀 Acknowledgement
 
+We are aware that our works are inspired by the following works, including but not limited to
 
-The ReaLM model is available at the following link:
+- llama: https://huggingface.co/meta-llama
+- Self-instruct: https://github.com/yizhongw/self-instruct
+  
+Without these, nothing could happen in this repository.
 
-https://huggingface.co/FreedomIntelligence/Realm-7b/tree/main
-
-
+# 💭 Citation
+```
+@misc{kong2023large,
+      title={Large Language Model as a User Simulator}, 
+      author={Chuyi Kong and Yaxin Fan and Xiang Wan and Feng Jiang and Benyou Wang},
+      year={2023},
+      eprint={2308.11534},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+We are from the School of Data Science, the Chinese University of Hong Kong, Shenzhen (CUHKSZ), and the Shenzhen Research Institute of Big Data (SRIBD).
