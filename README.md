@@ -3,12 +3,11 @@ Welcome to our realm.
 
 We propose a new paradigm for training a user simulator. 
 
-When using this paradigm on ShareGPT and LLaMA-7B, we got a brand new user simulator `UserGPT`.  When calling the UserGPT and gpt-3.5-turbo iteratively, we generated a multi-round conversation dataset `RealChat`. When fine-tuning LLAMA-7B-2 with it, the performance of the resulting model `ReaLM` surpasses LLaMA-2-7B-chat and Vicuna with only 50.7K samples in MT-Bench.
+After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `UserGPT`, emerged. Through iterative interactions between UserGPT and gpt-3.5-turbo, a multi-round conversation dataset named `RealChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `ReaLM` model, which exhibits superior performance compared to LLaMA-2-7B-chat and Vicuna in MT-Bench. Impressively, this improvement was achieved using a modest 50.7K samples.
 
 <img src="https://github.com/FreedomIntelligence/ReaLM/assets/73695787/808bcc05-dcae-4fa4-a11e-2c5496ae79b3" alt="performance" width="50%" height="50%">
 
-Since the user side is more human-like, the dataset was called `RealChat`.
-Since using UserGPT can switch freely between asking new questions and using other single-round dialogs as conversational instructions to generate domain-specific datasets, the answering model was called `ReaLM`.
+The dataset was dubbed `RealChat` due to its human-like user side. UserGPT's versatility in switching between generating novel questions and incorporating single-round dialogs as conversational instructions to create domain-specific datasets led to the naming of the answering model as `ReaLM`.
 
 The reference paper is available at the following links:
 https://arxiv.org/abs/2308.11534v1
@@ -17,6 +16,7 @@ https://arxiv.org/abs/2308.11534v1
 The key idea of our methodology is to flip the chessboard.
 
 <img src="https://github.com/FreedomIntelligence/ReaLM/assets/73695787/e034f4db-5248-437e-83dd-aa3a940add70" alt="key" width="50%" height="50%">
+
 
 We just mask the questions of real users and accordingly, only calculate their loss for the purpose of modifying the learning objective.
 In addition, we use a dyadic prompt template to instruct our backbone.
