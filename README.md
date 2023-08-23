@@ -23,8 +23,12 @@ The main difference between us and other research is shown below.
 
 ## Links
 The reference paper is available at the following links:
+
 https://arxiv.org/abs/2308.11534v1
+
+
 The ReaLM model is available at the following links:
+
 https://huggingface.co/FreedomIntelligence/Realm-7b/tree/main
 
 
