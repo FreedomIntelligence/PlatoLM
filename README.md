@@ -1,5 +1,5 @@
 # ReaLM
-Welcome to our realm.
+Welcome to our realm:hugs:.
 
 We propose a new paradigm for training a user simulator. 
 
@@ -12,7 +12,7 @@ The dataset was dubbed `RealChat` due to its human-like user side. UserGPT's ver
 ## Methodology
 The key to our idea is to `flip the chessboard`.
 
-(from an AVG うみねこのなく頃に).
+(:chess_pawn:from an AVG —— うみねこのなく頃に).
 
 <img src="https://github.com/FreedomIntelligence/ReaLM/assets/73695787/e034f4db-5248-437e-83dd-aa3a940add70" alt="key" width="50%" height="50%">
 
