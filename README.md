@@ -1,5 +1,5 @@
 # ReaLM
-Welcome to our realm:hugs:.
+Welcome to our realm:hugs:
 
 We propose a new paradigm for training a user simulator. 
 
