@@ -24,12 +24,12 @@ The main difference between us and other research is shown below.
 ![haha](https://github.com/FreedomIntelligence/ReaLM/assets/73695787/31baa406-e8c0-4fe4-854c-41f798ed8d52)
 
 ## Links
-The reference paper is available at the following links:
+The reference paper is available at the following link:
 
 https://arxiv.org/abs/2308.11534v1
 
 
-The ReaLM model is available at the following links:
+The ReaLM model is available at the following link:
 
 https://huggingface.co/FreedomIntelligence/Realm-7b/tree/main
 
