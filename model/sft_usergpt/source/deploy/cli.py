@@ -43,6 +43,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model-path",
         type=str,
+        # we didn't publish yet
         default="FreedomIntelligence/UserGPT",
         help="The path to the weights",
     )
