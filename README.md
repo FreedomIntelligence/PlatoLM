@@ -10,7 +10,7 @@ After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `
 The dataset was dubbed `RealChat` due to its human-like user side. UserGPT's versatility in switching between raising novel questions and incorporating single-round dialogs as conversational instructions to create domain-specific datasets led to the naming of the answering model as `ReaLM`.
 
 ## Methodology
-The key to our idea is to `flip the chessboard` (comes from an AVG うみねこのなく頃に).
+The key to our idea is to `flip the chessboard` (from an AVG うみねこのなく頃に).
 
 <img src="https://github.com/FreedomIntelligence/ReaLM/assets/73695787/e034f4db-5248-437e-83dd-aa3a940add70" alt="key" width="50%" height="50%">
 
