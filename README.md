@@ -30,10 +30,11 @@ The main difference between us and other research is shown below.
 ![haha](https://github.com/FreedomIntelligence/ReaLM/assets/73695787/31baa406-e8c0-4fe4-854c-41f798ed8d52)
 
 # 🚀 Training
-`shell
+```shell
 bash scripts/SFT_ReaLM_7B.sh
+
 bash scripts/SFT_UserGPT_7B.sh
-`
+```
 # 🧐 Inferencing
 (Coming soon.)
 
