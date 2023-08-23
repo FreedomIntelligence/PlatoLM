@@ -15,6 +15,7 @@ https://arxiv.org/abs/2308.11534v1
 
 ## Methodology
 The key idea of our methodology is to flip the chessboard.
+![image](https://github.com/FreedomIntelligence/ReaLM/assets/73695787/97d9e232-e522-43e9-b584-afc8edab6b49)
 
 We just mask the questions of real users and accordingly, only calculate their loss for the purpose of modifying the learning objective.
 In addition, we use a dyadic prompt template to instruct our backbone.
