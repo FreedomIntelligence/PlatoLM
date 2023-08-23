@@ -14,6 +14,13 @@ The key idea of our methodology is to flip the chessboard.
 
 <img src="https://github.com/FreedomIntelligence/ReaLM/assets/73695787/e034f4db-5248-437e-83dd-aa3a940add70" alt="key" width="50%" height="50%">
 
+
+We just mask the questions of real users and accordingly, only calculate their loss for the purpose of modifying the learning objective.
+In addition, we use a dyadic prompt template to instruct our backbone.
+
+The main difference between us and other research is shown below.
+![haha](https://github.com/FreedomIntelligence/ReaLM/assets/73695787/31baa406-e8c0-4fe4-854c-41f798ed8d52)
+
 ## Links
 The reference paper is available at the following links:
 https://arxiv.org/abs/2308.11534v1
@@ -21,8 +28,3 @@ The ReaLM model is available at the following links:
 https://huggingface.co/FreedomIntelligence/Realm-7b/tree/main
 
 
-We just mask the questions of real users and accordingly, only calculate their loss for the purpose of modifying the learning objective.
-In addition, we use a dyadic prompt template to instruct our backbone.
-
-The main difference between us and other research is shown below.
-![haha](https://github.com/FreedomIntelligence/ReaLM/assets/73695787/31baa406-e8c0-4fe4-854c-41f798ed8d52)
