@@ -22,7 +22,7 @@ The key to our idea is to `flip the chessboard` (:chess_pawn:from an AVG —— 
 
 
 We just `mask the questions of real users` and accordingly, only `calculate their loss` for the purpose of `modifying the learning objective`.
-In addition, we use a dyadic prompt template to instruct our backbone.
+In addition, we use `a dyadic prompt template` to instruct our backbone.
 
 The main difference between us and other research is shown below.
 ![haha](https://github.com/FreedomIntelligence/ReaLM/assets/73695787/31baa406-e8c0-4fe4-854c-41f798ed8d52)
