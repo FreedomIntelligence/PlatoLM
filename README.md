@@ -39,10 +39,10 @@ bash scripts/SFT_ReaLM_7B.sh
 # 🧐 Inferencing
 ```shell
 # To infer ReaLM, you can use the following command
-python3 -m ReaLM.model.sft_realm.source.deploy.cli --model FreedomIntelligence/ReaLM-7b
+python -m model.sft_realm.source.deploy.cli --model FreedomIntelligence/ReaLM-7b
 # To infer UserGPT, you can use the following command
 # The model's weights of UserGPT has not been published yet. 
-python3 -m ReaLM.model.sft_usergpt.source.deploy.cli --model balabala
+python -m model.sft_usergpt.source.deploy.cli --model balabala
 ```
 
 # :tada: Acknowledgement
