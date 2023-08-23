@@ -15,7 +15,7 @@ After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `
 
 The dataset was dubbed `RealChat` due to its human-like user side. UserGPT's versatility in switching between raising novel questions and incorporating single-round dialogs as conversational instructions to create domain-specific datasets led to the naming of the answering model as `ReaLM`.
 
-# 📚 Methodology
+# :book: Methodology
 The key to our idea is to `flip the chessboard`.
 
 (:chess_pawn:from an AVG —— うみねこのなく頃に).
@@ -45,7 +45,7 @@ python3 -m ReaLM.model.sft_realm.source.deploy.cli --model FreedomIntelligence/R
 python3 -m ReaLM.model.sft_usergpt.source.deploy.cli --model balabala
 ```
 
-# 😀 Acknowledgement
+# :tada: Acknowledgement
 
 We are aware that our works are inspired by the following works, including but not limited to
 
