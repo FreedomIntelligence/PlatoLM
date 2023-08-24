@@ -30,9 +30,9 @@ The main difference between us and other research is shown below.
 # 🚀 Training
 ```shell
 # To fine-tune UserGPT, you can use the following command
-bash scripts/SFT_UserGPT_7B.sh
+bash model/sft_usergpt/scripts/SFT_UserGPT_7B.sh
 # To fine-tune ReaLM, you can use the following command
-bash scripts/SFT_ReaLM_7B.sh
+bash model/sft_realm/scripts/SFT_ReaLM_7B.sh
 ```
 # 🧐 Inferencing
 ```shell
