@@ -2,7 +2,7 @@
 
 # ✨ Latest News
 - [08/21/2023]: Release the [model weights](https://huggingface.co/FreedomIntelligence/Realm-7b/tree/main).
-- [08/21/2023]: Release the [tech report](https://arxiv.org/abs/2308.11534v1).
+- [08/21/2023]: Release the [tech report](https://arxiv.org/abs/2308.11534).
 
 # ⚡ Introduction
 Welcome to our realm:hugs:
