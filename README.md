@@ -1,4 +1,4 @@
-# Large Language Model as a User Simulator
+# PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
 
 # ✨ Latest News
 - [08/21/2023]: Release the [model weights](https://huggingface.co/FreedomIntelligence/Realm-7b/tree/main).
@@ -9,7 +9,7 @@ Welcome to our realm:hugs:
 
 We propose a new paradigm for training a user simulator. 
 
-After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `UserGPT`, emerged. Through iterative interactions between UserGPT and gpt-3.5-turbo, a multi-round conversation dataset named `RealChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `ReaLM` model, which exhibits superior performance compared to LLaMA-2-7B-chat and Vicuna in MT-Bench. Impressively, this improvement was achieved using a modest 50.7K samples.
+After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `Socratic`, emerged. Through iterative interactions between Socratic and gpt-3.5-turbo, a multi-round conversation dataset named `SocraticChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `PlatoLM` model, which exhibits superior performance compared to LLaMA-2-7B-chat and Vicuna in MT-Bench and Alpaca-Eval. Impressively, this improvement was achieved using only 50.7K samples.
 
 <img src="https://github.com/FreedomIntelligence/ReaLM/assets/73695787/808bcc05-dcae-4fa4-a11e-2c5496ae79b3" alt="performance" width="50%" height="50%">
 
