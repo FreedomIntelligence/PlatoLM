@@ -1,19 +1,17 @@
 # PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
 
 # ✨ Latest News
-- [08/21/2023]: Release the [model weights](https://huggingface.co/FreedomIntelligence/Realm-7b/tree/main).
+- [08/21/2023]: Release the [model weights](https://huggingface.co/FreedomIntelligence/PlatoLM-7b/tree/main).
 - [08/21/2023]: Release the [tech report](https://arxiv.org/abs/2308.11534).
 
 # ⚡ Introduction
-Welcome to our realm:hugs:
+Welcome to our PlatoLM:hugs:
 
 We propose a new paradigm for training a user simulator. 
 
 After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `Socratic`, emerged. Through iterative interactions between Socratic and gpt-3.5-turbo, a multi-round conversation dataset named `SocraticChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `PlatoLM` model, which exhibits superior performance compared to LLaMA-2-7B-chat and Vicuna in MT-Bench and Alpaca-Eval. Impressively, this improvement was achieved using only 50.7K samples.
 
-<img src="https://github.com/FreedomIntelligence/ReaLM/assets/73695787/808bcc05-dcae-4fa4-a11e-2c5496ae79b3" alt="performance" width="50%" height="50%">
-
-The dataset was dubbed `RealChat` due to its human-like user side. UserGPT's versatility in switching between raising novel questions and incorporating single-round dialogs as conversational instructions to create domain-specific datasets led to the naming of the answering model as `ReaLM`.
+<u>The dataset was dubbed `RealChat` due to its human-like user side. Socratic's versatility in switching between raising novel questions and incorporating single-round dialogs as conversational instructions to create domain-specific datasets led to the naming of the answering model as `PlatoLM`.</u>
 
 # :book: Methodology
 The key to our idea is to `flip the chessboard`.
@@ -22,22 +20,23 @@ We just `mask the questions of real users` and accordingly, only `calculate thei
 In addition, we use `a dyadic prompt template` to instruct our backbone.
 
 The main difference between us and other research is shown below.
-![haha](https://github.com/FreedomIntelligence/ReaLM/assets/73695787/31baa406-e8c0-4fe4-854c-41f798ed8d52)
+![pipeline](https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/ecd6156e-4125-4e3b-93a3-b9955cb740ce)
+
 
 # 🚀 Training
 ```shell
-# To fine-tune UserGPT, you can use the following command
-bash model/sft_usergpt/scripts/SFT_UserGPT_7B.sh
-# To fine-tune ReaLM, you can use the following command
-bash model/sft_realm/scripts/SFT_ReaLM_7B.sh
+# To fine-tune Socratic, you can use the following command
+bash model/sft_socratic/scripts/sft_socratic_7B.sh
+# To fine-tune PlatoLM, you can use the following command
+bash model/sft_platolm/scripts/sft_platolm_7B.sh
 ```
 # 🧐 Inferencing
 ```shell
-# To infer ReaLM, you can use the following command
-python -m model.sft_realm.source.deploy.cli --model FreedomIntelligence/ReaLM-7b
-# To infer UserGPT, you can use the following command
-# The model's weights of UserGPT has not been published yet. 
-python -m model.sft_usergpt.source.deploy.cli --model balabala
+# To infer PlatoLM, you can use the following command
+python -m model.sft_platolm.source.deploy.cli --model FreedomIntelligence/PlatoLM-7b
+# To infer Socratic, you can use the following command
+# The model's weights of Socratic has not been published yet. 
+python -m model.sft_socratic.source.deploy.cli --model balabala
 ```
 
 # :tada: Acknowledgement
