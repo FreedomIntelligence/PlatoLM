@@ -26,9 +26,9 @@ The main difference between us and other research is shown below.
 # 🚀 Training
 ```shell
 # To fine-tune Socratic, you can use the following command
-bash model/sft_socratic/scripts/sft_socratic_7B.sh
+bash model/sft_socratic/scripts/sft_socratic_7b.sh
 # To fine-tune PlatoLM, you can use the following command
-bash model/sft_platolm/scripts/sft_platolm_7B.sh
+bash model/sft_platolm/scripts/sft_platolm_7b.sh
 ```
 # 🧐 Inferencing
 ```shell
