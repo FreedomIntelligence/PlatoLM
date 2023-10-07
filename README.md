@@ -5,7 +5,7 @@
 - [08/21/2023]: Release the [tech report](https://arxiv.org/abs/2308.11534).
 
 # ⚡ Introduction
-Welcome to our PlatoLM:hugs:
+Welcome to our realm:hugs:
 
 We propose a new paradigm for training a user simulator. 
 
