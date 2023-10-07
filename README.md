@@ -11,7 +11,7 @@ We propose a new paradigm for training a user simulator.
 
 After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `Socratic`, emerged. Through iterative interactions between Socratic and gpt-3.5-turbo, a multi-round conversation dataset named `SocraticChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `PlatoLM` model, which exhibits superior performance compared to LLaMA-2-7B-chat and Vicuna in MT-Bench and Alpaca-Eval. Impressively, this improvement was achieved using only 50.7K samples.
 
-<u>The dataset was dubbed `RealChat` due to its human-like user side. Socratic's versatility in switching between raising novel questions and incorporating single-round dialogs as conversational instructions to create domain-specific datasets led to the naming of the answering model as `PlatoLM`.</u>
+~~The dataset was dubbed `RealChat` due to its human-like user side. Socratic's versatility in switching between raising novel questions and incorporating single-round dialogs as conversational instructions to create domain-specific datasets led to the naming of the answering model as `ReaLM`.~~
 
 # :book: Methodology
 The key to our idea is to `flip the chessboard`.
