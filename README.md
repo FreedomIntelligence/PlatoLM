@@ -1,5 +1,10 @@
 # PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
 
+# Future Plan
+will update the tech report v1.1 in 3 days.
+will update the 13b version in a week.
+if you are interested in our work, welcome to provide us with gpt API!
+
 # ✨ Latest News
 - [09/28/2023]: Rank #2 on [AlpacaEval benchmark](https://tatsu-lab.github.io/alpaca_eval/) among 7b scale, achieving 81.94% win rates against text-davinci-003(has entered into the official benchmark).
 - [08/21/2023]: Rank #1 on [MT-Bench](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) among 7B scale(hasn't entered into the official benchmark yet)
