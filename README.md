@@ -1,7 +1,7 @@
 # PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
 
 # ✨ Latest News
-- [09/28/2023]: Rank second on [AlpacaEval benchmark](https://tatsu-lab.github.io/alpaca_eval/) among 7b scale and beat some 13b models, achieving 81.94% win rates against text-davinci-003(has been entered into the official benchmark).
+- [09/28/2023]: Rank second on [AlpacaEval benchmark](https://tatsu-lab.github.io/alpaca_eval/) among 7b scale, achieving 81.94% win rates against text-davinci-003(has been entered into the official benchmark).
 - [08/21/2023]: Rank top on [MT-Bench](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) among 7B scale(hasn't been entered into the official benchmark yet) 
 - [08/21/2023]: Release the [model weights](https://huggingface.co/FreedomIntelligence/PlatoLM-7b/tree/main).
 - [08/21/2023]: Release the [tech report v1.0](https://arxiv.org/abs/2308.11534).
