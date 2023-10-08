@@ -2,6 +2,7 @@
 
 # ✨ Latest News
 - [08/21/2023]: Rank second on [AlpacaEval benchmark](https://tatsu-lab.github.io/alpaca_eval/) among 7b scale and beat some 13b models, achieving 81.94% win rates against text-davinci-003.
+- [08/21/2023]: Rank top on [MT-Bench](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) among 7B scale.
 - [08/21/2023]: Release the [model weights](https://huggingface.co/FreedomIntelligence/PlatoLM-7b/tree/main).
 - [08/21/2023]: Release the [tech report v1.0](https://arxiv.org/abs/2308.11534).
 
