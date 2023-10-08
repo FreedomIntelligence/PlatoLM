@@ -1,9 +1,9 @@
 # PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
 
 # Future Plan
-will update the tech report v1.1 in 3 days.
-will update the 13b version in a week.
-if you are interested in our work, welcome to provide us with gpt API!
+- will update the tech report v1.1 in 3 days.
+- will update the 13b version in a week.
+- if you are interested in our work, welcome to provide us with gpt API!
 
 # ✨ Latest News
 - [09/28/2023]: Rank #2 on [AlpacaEval benchmark](https://tatsu-lab.github.io/alpaca_eval/) among 7b scale, achieving 81.94% win rates against text-davinci-003(has entered into the official benchmark).
@@ -17,7 +17,7 @@ Welcome to our realm:hugs:
 We propose a new paradigm for training a user simulator. 
 
 After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `Socratic`, emerged. Through iterative interactions between Socratic and gpt-3.5-turbo, a multi-round conversation dataset named `SocraticChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `PlatoLM` model, which exhibits superior performance. Impressively, this improvement was achieved using only 50.7K samples and entirely answers distilled from gpt-3.5-turbo.
-![cook](https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/253152f0-3262-4db8-9d4f-c66aab9b4323)
+![cool](https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/253152f0-3262-4db8-9d4f-c66aab9b4323){width=50% height=50%}
 
 
 
