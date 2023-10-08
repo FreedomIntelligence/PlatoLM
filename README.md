@@ -1,6 +1,7 @@
 # PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
 
 # Future Plan
+- [10/08/2023]
 - will update the tech report v1.1 in 3 days.
 - will update the 13b version in a week.
 - if you are interested in our work, welcome to provide us with gpt API!
