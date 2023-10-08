@@ -20,7 +20,7 @@ We propose a new paradigm for training a user simulator.
 
 After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `Socratic`, emerged. Through iterative interactions between Socratic and gpt-3.5-turbo, a multi-round conversation dataset named `SocraticChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `PlatoLM` model, which exhibits superior performance. 
 
-<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/253152f0-3262-4db8-9d4f-c66aab9b4323.png" width="500" height="200" alt="cool">
+<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/253152f0-3262-4db8-9d4f-c66aab9b4323.png" width="500" height="250" alt="cool">
 
 # :book: Methodology
 The key to our idea is to `flip the chessboard`.
