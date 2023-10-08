@@ -1,8 +1,8 @@
 # PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
 
 # ✨ Latest News
-- [09/28/2023]: Rank second on [AlpacaEval benchmark](https://tatsu-lab.github.io/alpaca_eval/) among 7b scale, achieving 81.94% win rates against text-davinci-003(has been entered into the official benchmark).
-- [08/21/2023]: Rank top on [MT-Bench](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) among 7B scale(hasn't been entered into the official benchmark yet) 
+- [09/28/2023]: Rank #2 on [AlpacaEval benchmark](https://tatsu-lab.github.io/alpaca_eval/) among 7b scale, achieving 81.94% win rates against text-davinci-003(has entered into the official benchmark).
+- [08/21/2023]: Rank #1 on [MT-Bench](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) among 7B scale(hasn't entered into the official benchmark yet)
 - [08/21/2023]: Release the [model weights](https://huggingface.co/FreedomIntelligence/PlatoLM-7b/tree/main).
 - [08/21/2023]: Release the [tech report v1.0](https://arxiv.org/abs/2308.11534).
 
@@ -11,9 +11,14 @@ Welcome to our realm:hugs:
 
 We propose a new paradigm for training a user simulator. 
 
-After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `Socratic`, emerged. Through iterative interactions between Socratic and gpt-3.5-turbo, a multi-round conversation dataset named `SocraticChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `PlatoLM` model, which exhibits superior performance compared to LLaMA-2-7B-chat and Vicuna in MT-Bench and Alpaca-Eval. Impressively, this improvement was achieved using only 50.7K samples.
+After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `Socratic`, emerged. Through iterative interactions between Socratic and gpt-3.5-turbo, a multi-round conversation dataset named `SocraticChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `PlatoLM` model, which exhibits superior performance. Impressively, this improvement was achieved using only 50.7K samples and entirely answers distilled from gpt-3.5-turbo.
+![cook](https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/253152f0-3262-4db8-9d4f-c66aab9b4323)
+
+
 
 ~~The dataset was dubbed `RealChat` due to its human-like user side. Socratic's versatility in switching between raising novel questions and incorporating single-round dialogs as conversational instructions to create domain-specific datasets led to the naming of the answering model as `ReaLM`.~~
+
+
 
 # :book: Methodology
 The key to our idea is to `flip the chessboard`.
