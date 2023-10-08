@@ -35,7 +35,6 @@ The pipeline can be analogous to Socratic teaching, which means teaching student
 Hence, the query model we named as Socratic, which means the follower of Socrates. The dataset was debudded with ScoraticChat and the resultant model was named PlatoLM.
 ![analogy-wide](https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/e9b3d37e-b95f-4ecd-b595-18c2a0d9aaaf)
 
-
 Experiments show that Socratic learned some natural patterns of mindset for human-computer interaction and it can ask questions progressively, as opposed to WizardLM which needs to undergo several rounds of evolution and filtering. The typical samples for Socratic Dialogues and our dataset SocraticChat are shown below.
 <img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/e4da7bdc-2102-4df7-9f31-eb3e8ca46c24.png" style="max-width: 500px; max-height: 1000px;"  alt="sample">
 
