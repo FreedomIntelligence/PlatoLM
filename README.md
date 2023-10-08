@@ -50,6 +50,7 @@ We are aware that our works are inspired by the following works, including but n
 Without these, nothing could happen in this repository.
 
 # 💭 Citation
+will update in a week!
 ```
 @misc{kong2023large,
       title={Large Language Model as a User Simulator}, 
