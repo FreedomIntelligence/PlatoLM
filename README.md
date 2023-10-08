@@ -31,7 +31,7 @@ In addition, we use `a dyadic prompt template` to instruct our backbone.
 The main difference between us and other research is shown below.
 ![pipeline](https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/ecd6156e-4125-4e3b-93a3-b9955cb740ce)
 
-The pipeline can be analogous to the teaching of Socratic teaching, which means teaching students via questioning from shallow to deeper. We argue that after learning the real human's high-quality instructions based on the knowledgeable llama backbone, Socratic shows the sophisticated pedagogical ability of its students, PlatoLM.
+The pipeline can be analogous to Socratic teaching, which means teaching students via questioning from shallow to deeper. We argue that after learning the real human's high-quality instructions based on the knowledgeable llama backbone, Socratic shows the sophisticated pedagogical ability of its students, PlatoLM.
 Hence, the query model we named as Socratic, which means the follower of Socrates. The dataset was debudded with ScoraticChat and the resultant model was named PlatoLM.
 ![analogy](https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/b90ea4c6-e5b1-40f5-a59f-0cdf62205fea)
 
