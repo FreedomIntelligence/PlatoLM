@@ -33,9 +33,8 @@ The main difference between us and other research is shown below.
 
 The pipeline can be analogous to Socratic teaching, which means teaching students via questioning from shallow to deeper. We argue that after learning the real human's high-quality instructions based on the knowledgeable llama backbone, Socratic shows the sophisticated pedagogical ability of its students, PlatoLM.
 Hence, the query model we named as Socratic, which means the follower of Socrates. The dataset was debudded with ScoraticChat and the resultant model was named PlatoLM.
-<div style="text-align:center">
-    <img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/b90ea4c6-e5b1-40f5-a59f-0cdf62205fea" width="800"/>
-</div>
+![analogy-wide](https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/5dcdf4f1-9ce4-4527-8614-5333aaeae544)
+
 
 Experiments show that Socratic learned some natural patterns of mindset for human-computer interaction and it can ask questions progressively, as opposed to WizardLM which needs to undergo several rounds of evolution and filtering. The typical samples for Socratic Dialogues and our dataset SocraticChat are shown below.
 <img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/e4da7bdc-2102-4df7-9f31-eb3e8ca46c24.png" style="max-width: 500px; max-height: 1000px;"  alt="sample">
