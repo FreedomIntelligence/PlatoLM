@@ -1,6 +1,6 @@
 # PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
 
-# Future Plan
+# 	:calendar: Future Plan
 - [10/08/2023]
 - will update the tech report v1.1 in 3 days.
 - will update the 13b version in a week.
@@ -35,10 +35,11 @@ The pipeline can be analogous to Socratic teaching, which means teaching student
 Hence, the query model we named as Socratic, which means the follower of Socrates. The dataset was debudded with ScoraticChat and the resultant model was named PlatoLM.
 <img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/5e735e31-3561-4e7f-9770-5e6f205dfbd1.png" width="500" height="330" alt="analogy">
 
+
+
+# :page_facing_up: Case Study
 Experiments show that Socratic learned some natural patterns of mindset for human-computer interaction and it can ask questions progressively, as opposed to WizardLM which needs to undergo several rounds of evolution and filtering. The typical samples for Socratic Dialogues and our dataset SocraticChat are shown below.
 <img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/e4da7bdc-2102-4df7-9f31-eb3e8ca46c24.png" style="max-width: 500px; max-height: 1000px;"  alt="sample">
-
-
 
  
 # 🚀 Training
