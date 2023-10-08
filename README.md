@@ -6,7 +6,7 @@
 - if you are interested in our work, welcome to provide us with gpt API!
 
 # ✨ Latest News
-- [09/28/2023]: Rank #2 on [AlpacaEval benchmark](https://tatsu-lab.github.io/alpaca_eval/) among 7b scale, achieving 81.94% win rates against text-davinci-003(has entered into the official benchmark).
+- [09/28/2023]: Rank #2 on [AlpacaEval benchmark](https://tatsu-lab.github.io/alpaca_eval/) among 7B scale, achieving 81.94% win rates against text-davinci-003(has entered into the official benchmark).
 - [08/21/2023]: Rank #1 on [MT-Bench](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) among 7B scale(hasn't entered into the official benchmark yet)
 - [08/21/2023]: Release the [model weights](https://huggingface.co/FreedomIntelligence/PlatoLM-7b/tree/main).
 - [08/21/2023]: Release the [tech report v1.0](https://arxiv.org/abs/2308.11534).
