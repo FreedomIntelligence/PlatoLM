@@ -2,14 +2,13 @@
 
 # 	:calendar: Future Plan
 - [10/08/2023]
-- ~will update the tech report v1.1 in 3 days.~
 - will update the 13b version in a week.
 - will reconstruct the code in a month.
 - if you are interested in our work, welcome to provide us with gpt APIs and GPUs!
 
 # ✨ Latest News
 - [10/10/2023]: Update the [tech report v1.1](https://arxiv.org/abs/2308.11534).
-- [10/08/2023]: The user simulator~`UserGPT`, dataset~`RealChat` and the respondent model~`ReaLM` are renamed to `Socratic`, `SocraticChat` and `PlatoLM`.
+- [10/08/2023]: The user simulator `UserGPT`, dataset `RealChat` and the respondent model `ReaLM` are renamed to `Socratic`, `SocraticChat` and `PlatoLM`.
 - [08/21/2023]: Rank #1 on [AlpacaEval benchmark](https://tatsu-lab.github.io/alpaca_eval/) among 7B scale, achieving 81.94% win rates against text-davinci-003 (has entered into the official benchmark).
 - [08/21/2023]: Rank #1 on [MT-Bench benchmark](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) among 7B scale (hasn't entered into the official benchmark yet).
 - [08/21/2023]: Release the [model weights](https://huggingface.co/FreedomIntelligence/PlatoLM-7b/tree/main).
