@@ -2,7 +2,7 @@
 
 # 	:calendar: Future Plan
 - [10/08/2023]
-- will update the tech report v1.1 in 3 days.
+- ~will update the tech report v1.1 in 3 days.~
 - will update the 13b version in a week.
 - will reconstruct the code in a month.
 - if you are interested in our work, welcome to provide us with gpt APIs and GPUs!
