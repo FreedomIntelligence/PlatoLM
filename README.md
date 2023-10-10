@@ -70,8 +70,8 @@ Without these, nothing could happen in this repository.
 # 💭 Citation
 will update in 3 days!
 ```
-@misc{kong2023large,
-      title={Large Language Model as a User Simulator}, 
+@misc{kong2023platolm,
+      title={PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator}, 
       author={Chuyi Kong and Yaxin Fan and Xiang Wan and Feng Jiang and Benyou Wang},
       year={2023},
       eprint={2308.11534},
