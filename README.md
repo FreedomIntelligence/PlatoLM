@@ -69,7 +69,6 @@ We are aware that our works are inspired by the following works, including but n
 Without these, nothing could happen in this repository.
 
 # 💭 Citation
-will update in 3 days!
 ```
 @misc{kong2023platolm,
       title={PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator}, 
