@@ -46,16 +46,16 @@ Experiments show that Socratic learned some `natural patterns of mindset for hum
  
 # 🚀 Training
 ```shell
-# To fine-tune Socratic:
+# To fine-tune Socratic
 bash model/sft_socratic/scripts/sft_socratic_7b.sh
-# To fine-tune PlatoLM:
+# To fine-tune PlatoLM
 bash model/sft_platolm/scripts/sft_platolm_7b.sh
 ```
 # 🧐 Inferencing
 ```shell
-# To infer PlatoLM:
+# To infer PlatoLM
 python -m model.sft_platolm.source.deploy.cli --model FreedomIntelligence/PlatoLM-7b
-# To infer Socratic:
+# To infer Socratic
 # The model's weights of Socratic has not been published yet. 
 python -m model.sft_socratic.source.deploy.cli --model balabala
 ```
