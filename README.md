@@ -7,6 +7,7 @@
 - if you are interested in our work, welcome to provide us with gpt APIs and GPUs!
 
 # ✨ Latest News
+- [10/12/2023]: Upload the dataset `SocraticChat` in [hugging face](https://huggingface.co/datasets/FreedomIntelligence/SocraticChat).
 - [10/10/2023]: Update the [tech report v3](https://arxiv.org/abs/2308.11534v3).
 - [10/08/2023]: The user simulator `UserGPT`, dataset `RealChat` and the respondent model `ReaLM` are renamed to `Socratic`, `SocraticChat` and `PlatoLM`.
 - [08/21/2023]: Rank #1 on [AlpacaEval benchmark](https://tatsu-lab.github.io/alpaca_eval/) among 7B scale, achieving 81.94% win rates against text-davinci-003 (has entered into the official benchmark).
@@ -45,20 +46,19 @@ Experiments show that Socratic learned some `natural patterns of mindset for hum
  
 # 🚀 Training
 ```shell
-# To fine-tune Socratic, you can use the following command
+# To fine-tune Socratic:
 bash model/sft_socratic/scripts/sft_socratic_7b.sh
-# To fine-tune PlatoLM, you can use the following command
+# To fine-tune PlatoLM:
 bash model/sft_platolm/scripts/sft_platolm_7b.sh
 ```
 # 🧐 Inferencing
 ```shell
-# To infer PlatoLM, you can use the following command
+# To infer PlatoLM:
 python -m model.sft_platolm.source.deploy.cli --model FreedomIntelligence/PlatoLM-7b
-# To infer Socratic, you can use the following command
+# To infer Socratic:
 # The model's weights of Socratic has not been published yet. 
 python -m model.sft_socratic.source.deploy.cli --model balabala
 ```
-
 # :tada: Acknowledgement
 
 We are aware that our works are inspired by the following works, including but not limited to
