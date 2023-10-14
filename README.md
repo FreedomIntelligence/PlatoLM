@@ -51,11 +51,11 @@ Experiments show that Socratic learned some `natural patterns of mindset for hum
 ```shell
 # To fine-tune Socratic
 cd model/sft_socratic
-bash scripts/sft_socratic_7b.sh 
+bash scripts/sft_7b.sh 
 
 # To fine-tune PlatoLM
 cd model/sft_platolm
-bash scripts/sft_platolm_7b.sh 
+bash scripts/sft_7b.sh 
 ```
 
 # 🧐 Inferencing
