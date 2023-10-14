@@ -1,6 +1,6 @@
 import argparse
 
-from source.deploy.inference import chat_loop, ChatIO
+from model.sft_socratic.source.deploy.inference import chat_loop, ChatIO
 
 class SimpleChatIO(ChatIO):
     def prompt_for_input(self, role) -> str:
@@ -44,7 +44,7 @@ if __name__ == "__main__":
         "--model-path",
         type=str,
         # we didn't publish yet
-        default="FreedomIntelligence/UserGPT",
+        default="FreedomIntelligence/Socratic",
         help="The path to the weights",
     )
     parser.add_argument("--device", type=str, choices=["cpu", "cuda"], default="cuda")

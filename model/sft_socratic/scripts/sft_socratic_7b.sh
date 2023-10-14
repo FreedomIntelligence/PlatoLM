@@ -1,7 +1,7 @@
 model_name_or_path=/mntcephfs/data/med/zhihong/workspace/LLMZoo/llama_hf_7b
 model_max_length=2048 
-data_path=data/sg_v3_34.4k_19.4k.json
-output_dir=checkpoints/
+data_path=/mntcephfs/lab_data/kongchuyi/s1/data/sg_v3_34.4k_19.4k.json
+output_dir=test/
 
 torchrun \
   --nnodes=1 \

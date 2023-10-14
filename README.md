@@ -1,12 +1,14 @@
 # PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
 
-# 	:calendar: Future Plan
+# 📆 Future Plan
+
 - [10/08/2023]
 - will update the 13b version in a week.
 - will reconstruct the code in a month.
 - if you are interested in our work, welcome to provide us with gpt APIs and GPUs!
 
 # ✨ Latest News
+
 - [10/12/2023]: Upload the dataset `SocraticChat` in [hugging face](https://huggingface.co/datasets/FreedomIntelligence/SocraticChat).
 - [10/10/2023]: Update the [tech report v4](https://arxiv.org/abs/2308.11534v4).
 - [10/08/2023]: The user simulator `UserGPT`, dataset `RealChat` and the respondent model `ReaLM` are renamed to `Socratic`, `SocraticChat` and `PlatoLM`.
@@ -16,15 +18,17 @@
 - [08/21/2023]: Release the [tech report v1](https://arxiv.org/abs/2308.11534).
 
 # ⚡ Introduction
-Welcome to our realm:hugs:
 
-We propose a new paradigm for training a user simulator. 
+Welcome to our realm🤗
 
-After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `Socratic`, emerged. Through iterative interactions between Socratic and gpt-3.5-turbo, a multi-round conversation dataset named `SocraticChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `PlatoLM` model, which exhibits superior performance. 
+We propose a new paradigm for training a user simulator.
+
+After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `Socratic`, emerged. Through iterative interactions between Socratic and gpt-3.5-turbo, a multi-round conversation dataset named `SocraticChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `PlatoLM` model, which exhibits superior performance.
 
 <img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/253152f0-3262-4db8-9d4f-c66aab9b4323.png" width="500" height="200" alt="cool">
 
-# :book: Methodology
+# 📖 Methodology
+
 The key to our idea is to `flip the chessboard`.
 
 We just `mask the questions of real users` and accordingly, only `calculate their loss` for the purpose of `modifying the learning objective`.
@@ -35,41 +39,48 @@ The main difference between us and other research is shown below.
 
 The pipeline can be analogous to `Socratic teaching`, which means `teaching students via questioning from shallow to deeper`. We argue that after `learning the real human's high-quality instructions` based on `the knowledgeable llama backbone`, more human-like LLMs will master the `sophisticated teaching ability`.
 Therefore, we named the query model `Socratic`, which means the follower of Socrates.  Likewise, we labeled the dataset as `SocraticChat`, and the resulting model was dubbed `PlatoLM`.
-<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/5e735e31-3561-4e7f-9770-5e6f205dfbd1.png" width="500" height="330" alt="analogy">
+`<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/5e735e31-3561-4e7f-9770-5e6f205dfbd1.png" width="500" height="330" alt="analogy">`
 
+# 📄 Case Study
 
-
-# :page_facing_up: Case Study
 Experiments show that Socratic learned some `natural patterns of mindset for human-computer interaction` and it can `ask questions progressively`, as opposed to WizardLM which needs to undergo several rounds of evolution and filtering. `The typical samples` for Socratic Dialogues and our dataset SocraticChat are shown below.
-<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/e4da7bdc-2102-4df7-9f31-eb3e8ca46c24.png" style="max-width: 500px; max-height: 1000px;"  alt="sample">
+`<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/e4da7bdc-2102-4df7-9f31-eb3e8ca46c24.png" style="max-width: 500px; max-height: 1000px;"  alt="sample">`
 
- 
 # 🚀 Training
+
 ```shell
 # To fine-tune Socratic
-bash model/sft_socratic/scripts/sft_socratic_7b.sh
+cd model/sft_socratic
+bash scripts/sft_socratic_7b.sh 
+
 # To fine-tune PlatoLM
-bash model/sft_platolm/scripts/sft_platolm_7b.sh
+cd model/sft_platolm
+bash scripts/sft_platolm_7b.sh 
 ```
+
 # 🧐 Inferencing
+
 ```shell
 # To infer PlatoLM
 python -m model.sft_platolm.source.deploy.cli --model FreedomIntelligence/PlatoLM-7b
+
 # To infer Socratic
 # The model's weights of Socratic has not been published yet. 
 python -m model.sft_socratic.source.deploy.cli --model balabala
 ```
-# :tada: Acknowledgement
+
+# 🎉 Acknowledgement
 
 We are aware that our works are inspired by the following works, including but not limited to
 
 - LLaMA: https://huggingface.co/meta-llama
 - Self-instruct: https://github.com/yizhongw/self-instruct
 - LLMZoo: https://github.com/FreedomIntelligence/LLMZoo
-  
+
 Without these, nothing could happen in this repository.
 
 # 💭 Citation
+
 ```
 @misc{kong2023platolm,
       title={PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator}, 
@@ -80,4 +91,5 @@ Without these, nothing could happen in this repository.
       primaryClass={cs.CL}
 }
 ```
+
 We are from the School of Data Science, the Chinese University of Hong Kong, Shenzhen (CUHKSZ), and the Shenzhen Research Institute of Big Data (SRIBD).

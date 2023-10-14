@@ -13,7 +13,7 @@ except ImportError:
         AutoModelForCausalLM,
     )
     
-from source.utils import get_default_conv_template, SeparatorStyle
+from model.sft_platolm.source.utils import get_default_conv_template, SeparatorStyle
 
 
 def get_gpu_memory(max_gpus=None):

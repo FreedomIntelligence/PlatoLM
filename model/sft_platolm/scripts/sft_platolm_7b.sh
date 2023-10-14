@@ -1,7 +1,7 @@
-model_name_or_path=/mntcephfs/data/med/zhihong/workspace/LLMZoo/llama_hf_7b
+model_name_or_path=/mntnfs/med_data5/fanyaxin/Llama-2-7b-hf/
 model_max_length=2048 
-data_path=/mntcephfs/lab_data/kongchuyi/s2/fastchat/data/sd_50728.json
-output_dir=/mntnfs/med_data5/kongchuyi/wo/sd_50728_ckpt/
+data_path=/mntcephfs/lab_data/kongchuyi/s3/data/sd_50728.json
+output_dir=/mntcephfs/lab_data/kongchuyi/ckpt/
   
 torchrun \
   --nnodes=1 \

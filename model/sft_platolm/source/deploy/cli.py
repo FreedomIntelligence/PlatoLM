@@ -1,6 +1,6 @@
 import argparse
 
-from inference import chat_loop, ChatIO
+from model.sft_platolm.source.deploy.inference import chat_loop, ChatIO
 
 
 class SimpleChatIO(ChatIO):
@@ -44,7 +44,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model-path",
         type=str,
-        default="FreedomIntelligence/ReaLM-7b",
+        default="FreedomIntelligence/PlatoLM-7B",
         help="The path to the weights",
     )
     parser.add_argument("--device", type=str, choices=["cpu", "cuda"], default="cuda")

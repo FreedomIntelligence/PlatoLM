@@ -75,7 +75,7 @@ class Conversation:
         }
 
 # you can try it to test how can terminate the conversations by human
-sft_usergpt_end_test = Conversation(
+sft_socratic_end_test = Conversation(
     system="A chat between a curious human and an artificial intelligence assistant. "
             "The human can ask further questions based on assistant's answers above, or he can directly ask questions without context."
             "When the human thinks that the assistant's answer is clear enough for him, the human will end the conversation by replying <e>, where <e> is a word that has no semantic meaning and simply means that the human considers that the conversation should end at this point.\n\n",
@@ -86,7 +86,7 @@ sft_usergpt_end_test = Conversation(
     sep="</s>",
 )
 
-sft_usergpt_final = Conversation(
+sft_socratic_final = Conversation(
     system="A chat between a curious human and an artificial intelligence assistant. "
             "The human can ask further questions based on previous conversations, or he can directly ask brand new questions without any conversations as context.\n\n",
     roles=("Human", "Assistant"),
@@ -96,7 +96,7 @@ sft_usergpt_final = Conversation(
     sep="</s>",
 )
 
-default_conversation = sft_usergpt_final
+default_conversation = sft_socratic_final
 
 def get_default_conv_template():
     return default_conversation

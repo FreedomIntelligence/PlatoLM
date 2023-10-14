@@ -75,7 +75,7 @@ class Conversation:
             "sep": self.sep
         }
 
-sft_realm = Conversation(
+sft_platolm = Conversation(
     system="A chat between a curious human and an artificial intelligence assistant. "
            "The assistant gives helpful, detailed, and polite answers to the human's questions.\n\n",
     roles=("Human", "Assistant"),
@@ -85,7 +85,7 @@ sft_realm = Conversation(
     sep="</s>",
 )
 
-default_conversation = sft_realm
+default_conversation = sft_platolm
 
 def get_default_conv_template():
     return default_conversation

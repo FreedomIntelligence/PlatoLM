@@ -14,15 +14,15 @@ from source.utils import safe_save_model_for_hf_trainer
 from source.datasets.datasets import make_supervised_data_module
 
 # replace it with your own info.
-os.environ["WANDB_API_KEY"]='your key'
-wandb.init(
-    project="your project name",
-    entity="yout entity name",
-)
+# os.environ["WANDB_API_KEY"]='your key'
+# wandb.init(
+#     project="",
+#     entity="",
+# )
 
 @dataclass
 class ModelArguments:
-    model_name_or_path: Optional[str] = field(default="FreedomIntelligence/ReaLM")
+    model_name_or_path: Optional[str] = field(default="FreedomIntelligence/PlatoLM-7B")
 
 @dataclass
 class DataArguments:
@@ -45,14 +45,6 @@ def train():
     data_module = make_supervised_data_module(tokenizer=tokenizer, data_args=data_args)
 
     trainer = Trainer(model=model, tokenizer=tokenizer, args=training_args, **data_module)
-
-    if model_args.lora:
-        old_state_dict = model.state_dict
-        model.state_dict = (
-            lambda self, *_, **__: get_peft_model_state_dict(self, old_state_dict())
-        ).__get__(model, type(model))
-        if torch.__version__ >= "2":
-            model = torch.compile(model)
 
     if list(pathlib.Path(training_args.output_dir).glob("checkpoint-*")):
         trainer.train(resume_from_checkpoint=True)

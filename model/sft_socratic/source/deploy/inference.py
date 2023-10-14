@@ -14,7 +14,7 @@ except ImportError:
         AutoModelForCausalLM,
     )
 
-from source.utils import get_default_conv_template, SeparatorStyle
+from model.sft_socratic.source.utils import get_default_conv_template, SeparatorStyle
 
 def get_gpu_memory(max_gpus=None):
     gpu_memory = []
@@ -206,7 +206,7 @@ def chat_loop(
         conv = train_conv.copy()
 
     while True:
-        # change the logicality
+        # change the code logicality from LLMZoo.
         conv.append_message(conv.roles[0], None)
 
         generate_stream_func = generate_stream
