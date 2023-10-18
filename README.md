@@ -24,6 +24,7 @@ Welcome to our realm🤗
 We propose a new paradigm for training a user simulator.
 
 After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `Socratic`, emerged. Through iterative interactions between Socratic and gpt-3.5-turbo, a multi-round conversation dataset named `SocraticChat` was generated. Leveraging this dataset for fine-tuning LLAMA-7B-2 resulted in the `PlatoLM` model, which exhibits superior performance. 
+
 With fewer samples(50.7K), shorter context length(2048), and smaller model scale(7B), we even beat GPT 3.5 in the Alpaca-Eval benchmark.
 
 <img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/253152f0-3262-4db8-9d4f-c66aab9b4323.png" width="500" height="200" alt="cool">
@@ -40,7 +41,7 @@ The main difference between us and other research is shown below.
 
 The pipeline can be analogous to `Socratic teaching`, which means `teaching students via questioning from shallow to deeper`. We argue that after `learning the real human's high-quality instructions` based on `the knowledgeable llama backbone`, more human-like LLMs will master the `sophisticated teaching ability`.
 Therefore, we named the query model `Socratic`, which means the follower of Socrates.  Likewise, we labeled the dataset as `SocraticChat`, and the resulting model was dubbed `PlatoLM`.
-![analogy](https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/5c60df0a-93a3-44bd-a6b3-fa4e2e73ad96)
+<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/5c60df0a-93a3-44bd-a6b3-fa4e2e73ad96.png" width="500" height="200" alt="analogy">
 
 
 # 📄 Case Study
