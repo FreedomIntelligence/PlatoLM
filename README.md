@@ -41,7 +41,7 @@ The main difference between us and other research is shown below.
 
 The pipeline can be analogous to `Socratic teaching`, which means `teaching students via questioning from shallow to deeper`. We argue that after `learning the real human's high-quality instructions` based on `the knowledgeable llama backbone`, more human-like LLMs will master the `sophisticated teaching ability`.
 Therefore, we named the query model `Socratic`, which means the follower of Socrates.  Likewise, we labeled the dataset as `SocraticChat`, and the resulting model was dubbed `PlatoLM`.
-<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/5c60df0a-93a3-44bd-a6b3-fa4e2e73ad96.png" width="500" height="200" alt="analogy">
+<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/5c60df0a-93a3-44bd-a6b3-fa4e2e73ad96.png" width="500" height="450" alt="analogy">
 
 
 # 📄 Case Study
