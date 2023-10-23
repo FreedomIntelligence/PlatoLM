@@ -45,7 +45,8 @@ Therefore, we named the query model `Socratic`, which means the follower of Socr
 # 📄 Case Study
 
 Experiments show that Socratic learned some `natural patterns of mindset for human-computer interaction` and it can `ask questions progressively`, as opposed to WizardLM which needs to undergo several rounds of evolution and filtering. `The typical samples` for Socratic Dialogues and our dataset SocraticChat are shown below.
-![sample](https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/c5df85c3-b83d-423b-84a3-0d78f2c3332c)
+![sample2](https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/22e3754d-a28c-4cf3-a7fb-517afa6ec41a)
+
 
 
 # 🚀 Training
