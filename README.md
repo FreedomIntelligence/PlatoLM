@@ -1,10 +1,4 @@
 # PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
-
-# 📆 Future Plan
-- will update the 13b version
-- will reconstruct the code
-- if you are interested in our work, welcome to provide us with gpt APIs and GPUs!
-
 # ✨ Latest News
 
 - [10/12/2023]: Upload the dataset `SocraticChat` in [hugging face](https://huggingface.co/datasets/FreedomIntelligence/SocraticChat).
