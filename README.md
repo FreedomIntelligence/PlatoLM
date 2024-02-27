@@ -19,7 +19,7 @@ After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `
 
 With fewer samples(50.7K) distilled from gpt-3.5, shorter context length(2048), and smaller model scale(7B), we even beat GPT 3.5 in Alpaca-Eval benchmark.
 
-<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/b314a609-dfc6-4d6a-9795-3bf492f84c0c.png" width="700" height="250" alt="cool">
+<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/b314a609-dfc6-4d6a-9795-3bf492f84c0c.png" width="800" height="250" alt="cool">
 
 <img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/51141cbc-046a-4a55-b937-254e1155c06b.png" width="400" height="350" alt="cool">
 
