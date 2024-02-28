@@ -1,6 +1,6 @@
 # PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
 # ✨ Latest News
-- [01/16/2024]: We are rejected by [ICLR-2024](https://openreview.net/forum?id=9nddtu94uX) with scores 8666（ranked top 13%-16%） due to AC's Factual Error but no one replies the appeal email. Fine.
+- [01/16/2024]: We are rejected by [ICLR-2024](https://openreview.net/forum?id=9nddtu94uX) with scores 8666（ranked top 13%-16%）.
 - [10/12/2023]: Upload the dataset `SocraticChat` in [hugging face](https://huggingface.co/datasets/FreedomIntelligence/SocraticChat).
 - [10/10/2023]: Update the [tech report v4](https://arxiv.org/abs/2308.11534v4).
 - [10/08/2023]: The user simulator `UserGPT`, dataset `RealChat` and the respondent model `ReaLM` are renamed to `Socratic`, `SocraticChat`, and `PlatoLM` by Benyou Wang, the provider of 4 x A100s.
