@@ -19,9 +19,10 @@ After applying this paradigm to ShareGPT and LLaMA-7B, a novel user simulator, `
 
 With fewer samples(50.7K) distilled from gpt-3.5, shorter context length(2048), and smaller model scale(7B), we even beat GPT 3.5 in Alpaca-Eval benchmark.
 
-<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/b314a609-dfc6-4d6a-9795-3bf492f84c0c.png" width="800" height="250" alt="cool">
+<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/b314a609-dfc6-4d6a-9795-3bf492f84c0c.png" width="400" height="150" alt="cool">
 
-<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/51141cbc-046a-4a55-b937-254e1155c06b.png" width="400" height="350" alt="cool">
+
+<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/51141cbc-046a-4a55-b937-254e1155c06b.png" width="300" height="250" alt="cool">
 
 
 # 📖 Methodology
@@ -36,7 +37,7 @@ The main difference between us and other research is shown below.
 
 The pipeline can be analogous to `Socratic teaching`, which means teaching students via questioning. We argue that after learning the real human's high-quality instructions based on the knowledgeable llama backbone, more human-like LLMs will master the sophisticated teaching ability.
 Therefore, we named the query model `Socratic`, which means the follower of Socrates.  Likewise, we labeled the dataset as `SocraticChat`, and the resulting model was dubbed `PlatoLM`.
-<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/5c60df0a-93a3-44bd-a6b3-fa4e2e73ad96.png" width="600" height="400" alt="analogy">
+<img src="https://github.com/FreedomIntelligence/PlatoLM/assets/73695787/5c60df0a-93a3-44bd-a6b3-fa4e2e73ad96.png" width="400" height="266" alt="analogy">
 
 Experiments show that a more human-like questioning pattern in dynamic multi-round conversations can teach the response model better compared to static role-playing, which can be attributed to `the natural and rich topic structures of the questioning pattern from humans` in human-machine dialogue where they `hold topic dominance`. 
 
