@@ -1,5 +1,6 @@
 # PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator
 # ✨ Latest News
+- [05/15/2024]: We are accepted by [ACL-2024](https://2024.aclweb.org/program/main_conference_papers/).
 - [01/16/2024]: We are rejected by [ICLR-2024](https://openreview.net/forum?id=9nddtu94uX) with scores 8666（ranked top 13%-16%）.
 - [10/12/2023]: Upload the dataset `SocraticChat` in [hugging face](https://huggingface.co/datasets/FreedomIntelligence/SocraticChat).
 - [10/10/2023]: Update the [tech report v4](https://arxiv.org/abs/2308.11534v4).
