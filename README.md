@@ -87,13 +87,12 @@ Without these, nothing could happen in this repository.
 # 💭 Citation
 
 ```
-@misc{kong2023platolm,
-      title={PlatoLM: Teaching LLMs via a Socratic Questioning User Simulator}, 
-      author={Chuyi Kong and Yaxin Fan and Xiang Wan and Feng Jiang and Benyou Wang},
-      year={2023},
-      eprint={2308.11534},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{kong2024platolm,
+  title={PlatoLM: Teaching LLMs in Multi-Round Dialogue via a User Simulator},
+  author={Kong, Chuyi and Fan, Yaxin and Wan, Xiang and Jiang, Feng and Wang, Benyou},
+  booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={7841--7863},
+  year={2024}
 }
 ```
 
