@@ -70,9 +70,7 @@ bash scripts/sft_7b.sh
 python -m model.sft_platolm.source.deploy.cli --model FreedomIntelligence/PlatoLM-7b
 
 # To infer Socratic
-# The model's weights of Socratic has not been published yet.
-# Training data for Socratic: https://drive.google.com/file/d/1ImqrFk4O2ZhdYaTeuym06Ldcidyn7qq4/view?usp=sharing
-# Other data in Google Drive becomes inaccessible due to the storage limit。
+# The model's weights of Socratic has not been published yet, but we provide the training data for Socratic: https://huggingface.co/datasets/FreedomIntelligence/Socratic
 python -m model.sft_socratic.source.deploy.cli --model balabala
 ```
 
